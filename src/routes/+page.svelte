@@ -47,6 +47,14 @@
 	</div>
 </section>
 
+<section id="interests">
+	<h2>Interests</h2>
+	<p>
+		Outside of coding, you'll find me playing pickleball, paddleboarding, exploring local
+		restaurants, or investing.
+	</p>
+</section>
+
 <style>
 	section {
 		margin-bottom: var(--spacing-section);
@@ -112,5 +120,9 @@
 	.experience-item > p:last-child {
 		font-size: 0.925rem;
 		line-height: 1.6;
+	}
+
+	#interests p {
+		line-height: 1.8;
 	}
 </style>

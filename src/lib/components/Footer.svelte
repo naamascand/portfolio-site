@@ -47,4 +47,20 @@
 		font-size: 0.8rem;
 		color: var(--color-text-muted);
 	}
+
+	@media (max-width: 600px) {
+		.footer-inner {
+			flex-direction: column;
+			gap: 1rem;
+		}
+
+		.links {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.copyright {
+			text-align: center;
+		}
+	}
 </style>
